@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ReceiptKeepingDatabase</string>
+    <string name="add">Add entry</string>
+    <string name="edit">Edit entry</string>
+    <string name="cmEdit">Edit Entry</string>
+    <string name="cmDelete">Delete Entry</string>
+    <string name="tvPriority">Priority</string>
+    <string name="tvContent">Content</string>
+    <string name="etHintContent">Enter content</string>
+    <string name="etHintPriority">Enter priority</string>
+
+</resources>

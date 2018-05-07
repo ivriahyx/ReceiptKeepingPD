@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp"
+    android:orientation="vertical"
+    tools:context="sg.edu.rp.sdma.lab17_database2.EntryActivity">
+
+    <TextView
+        android:id="@+id/textViewC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title" />
+
+    <EditText
+        android:id="@+id/etContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter title " />
+
+    <TextView
+        android:id="@+id/textViewP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cost" />
+
+    <EditText
+        android:id="@+id/etPriority"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter cost"
+        android:inputType="numberDecimal"
+        tools:text="$" />
+
+    <TextView
+        android:id="@+id/textViewD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date" />
+
+    <EditText
+        android:id="@+id/etDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:focusable="false"
+        android:ems="10"
+        android:hint="Enter date"
+        android:selectAllOnFocus="false"
+        android:inputType="textPersonName"/>
+
+    <TextView
+        android:id="@+id/textViewCat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Category" />
+
+    <EditText
+        android:id="@+id/etCat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter category"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:ems="10"
+        android:focusable="false"
+        android:hint="Click to add image"
+        android:inputType="textPersonName"
+        android:onClick="dispatchTakePictureIntent()" />
+
+    <Button
+        android:id="@+id/btnAction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TBC" />
+</LinearLayout>
